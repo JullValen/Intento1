@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensajes>
+    <!-- Mensaje que se cargara al no coincidir con ningun otro -->
+    <defecto value="CODIGO NO RECONOCIDO"/>
+    <!-- El mensaje es el que aparecera en BASIC, los patrones han de hacerse si se
+        domino expresiones regulares, o valores uno por uno, si se quiere hacer eso -->
+        
+   <!-- Mensaje por defecto si no se identifica ningun mensaje (no cambiar el valor) -->     
+    <mensaje value="ERROR NO IDENTIFICADO">
+        <valores>
+            <valor>0000</valor>
+        </valores>
+    </mensaje>
+    
+    
+    <mensaje value="ERROR INDEFINIDO">
+        <valores>
+            <valor>9000</valor>
+        </valores>
+    </mensaje>
+    <mensaje value="PARAMETRO INDEFINIDO">>
+        <valores>
+            <valor>9100</valor>
+        </valores>
+    </mensaje>
+    <mensaje value="CONTIENE DATOS INVALIDOS">
+        <valores>
+            <valor>9103</valor>
+        </valores>
+    </mensaje>
+    <mensaje value="FALTA PARAMETRO DE NUMERO DE PAQUETES">
+        <valores>
+            <valor>9108</valor>
+        </valores>
+    </mensaje>
+    <mensaje value="FALTA PARAMETRO RESOURCE O ES INVALIDO">
+        <valores>
+            <valor>9109</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="PARAMETRO BONUS RESOURCE FALTANTE O INVALIDO">
+        <valores>
+            <valor>9110</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="FALTA PARAMETRO DE CONTROLLED ACCOUNT">
+        <valores>
+            <valor>9111</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="DATOS INVALIDOS O PARAMETROS FALTANTES">
+        <valores>
+            <valor>9001</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="SUSCRIPTOR INDEFINIDO">
+        <valores>
+            <valor>9200</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="SUSCRIPTOR CON ESTADO INVALIDO">
+        <valores>
+            <valor>9201</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="RANGO DE SUSCRIPTOR INVALIDO">
+        <valores>
+            <valor>9202</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="SUSCRIPTOR NO ENCONTRADO">
+        <valores>
+            <valor>9203</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="CUENTA DE SUSCRIPTOR NO ENCONTRADA">
+        <valores>
+            <valor>9204</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="SUSCRIPTOR INVALIDO">
+        <valores>
+            <valor>9002</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="FONDOS INSUFICIENTES">
+        <valores>
+            <valor>9301</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="BALANCE REAL DESBORDADO">
+        <valores>
+            <valor>9302</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="ERROR DE RECARGA">
+        <valores>
+            <valor>9003</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="RECURSO NO HABILITADO">
+        <valores>
+            <valor>9509</valor>
+        </valores>
+    </mensaje>
+     <mensaje value="RECARGA NO HABILITADA">
+        <valores>
+            <valor>9510</valor>
+        </valores>
+    </mensaje>
+    
+</mensajes>

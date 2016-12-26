@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conexion>
+    <a tipo="ip" ip="10.25.65.17" puerto="7001" ruta="gatewaytigoscpintv19/GatewayTigoScpWSIntV19" espera="10"/>
+    <usuario>3018000054</usuario>
+    <password>123456789</password>
+    <ResourceTypeList>
+	    <ResourceType>
+	    	<tipo>01</tipo>
+	    	<conversion>M</conversion>
+	    </ResourceType>
+	    <ResourceType>
+	    	<tipo>01</tipo>
+	    	<conversion>D</conversion>
+	    </ResourceType>
+    </ResourceTypeList>
+</conexion>
